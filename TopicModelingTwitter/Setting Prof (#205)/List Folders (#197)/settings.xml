@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="Path_name_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="Path_name" type="xstring" isnull="true" value=""/>
+<config key="Include_Subfolders_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="Include_Subfolders" type="xboolean" value="false"/>
+<config key="Include_Folder_Name_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="Include_Folder_Name" type="xboolean" value="true"/>
+<config key="Include_Containing_Path_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="Include_Containing_Path" type="xboolean" value="true"/>
+<config key="Include_Visibility_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="Include_Visibility" type="xboolean" value="true"/>
+<config key="Include_LastModified_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="Include_LastModified" type="xboolean" value="true"/>
+</config>
+<config key="variables">
+<config key="Path_name">
+<entry key="used_variable" type="xstring" value="knime.workspace"/>
+<entry key="exposed_variable" type="xstring" isnull="true" value=""/>
+</config>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="com.vernalis.nodes.io.listdirs2.ListDirs2NodeFactory"/>
+<entry key="node-name" type="xstring" value="List Folders"/>
+<entry key="node-bundle-name" type="xstring" value="Vernalis custom KNIME nodes package "/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="com.vernalis.knime"/>
+<entry key="node-bundle-vendor" type="xstring" value="Vernalis (R&amp;D), UK"/>
+<entry key="node-bundle-version" type="xstring" value="1.3.4.201503121444"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="List Folders"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 16, Cols: 7"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="c03e95a8-0a12-43d4-a2f6-269fa3676db4"/>
+</config>
+</config>
